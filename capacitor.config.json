@@ -1,0 +1,9 @@
+{
+  "appId": "com.ghanz.calcal",
+  "appName": "CalCal",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": true
+  }
+}
