@@ -32,6 +32,9 @@ jobs:
       - name: Sync web assets
         run: npx cap sync android
 
+      - name: Generate icon & splash (white background)
+        run: npx capacitor-assets generate --android --iconBackgroundColor '#FFFFFF' --splashBackgroundColor '#FFFFFF'
+
       - name: Make gradlew executable
         run: chmod +x android/gradlew
 
